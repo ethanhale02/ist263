@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More CSS</title>
+    <style>
+        h2 {background-color: #ffd15e;}
+        /* From no on you will use hexadecimal colors (load faster in web browser) */
+        a:visited {color: #00ff00;}
+        a:hover {background-color: #efefef;}
+        /* Psuedo selector, You need the : */
+        body {background-color: #3a1212; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-image: url("otto.png");
+            background-size: 5%;}
+        /* background images repeat, if image dos not have transperancy you will not be able to see background color, sizing background image */
+        .bgimage {background-image: url("otto.png");
+            background-size: 10%;}
+        .box {background-color: #ffffff;
+            border: 5px solid #ff2940;
+            /* Border is a combo property */
+            padding: 30px;
+            /* padding is space within the border, margin is space outside the border*/
+            margin: 30px;}
+    </style>
+</head>
+<body>
+    <h1>More CSS</h1>
+        <h2>Hexadecimal Colors</h2>
+        <h2>Psuedo Selectors</h2>
+            <a href="http://www.microsoft.com">Microsoft</a><br>
+            <a href="http://www.apple.com">Apple</a>
+        <h2>Background Image</h2>
+            <p class="bgimage">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit atque quaerat eos soluta voluptates minus laborum eaque mollitia, facere perspiciatis facilis expedita fugiat non voluptatibus natus itaque laboriosam id obcaecati?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error molestias corporis dicta, numquam obcaecati exercitationem inventore hic perferendis a magni odit quibusdam veritatis unde, impedit quod labore, sequi quos nam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas a ducimus veritatis laudantium, vel fuga repellat porro praesentium, odit tenetur cumque eligendi est libero ab eaque, et minus sint? Quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aliquid sed expedita cum ea neque corporis enim asperiores veritatis magni quas officiis necessitatibus, incidunt nostrum quam nesciunt facere culpa alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non ipsa laborum distinctio explicabo et itaque sequi nihil placeat commodi obcaecati pariatur, eum provident fugiat rerum ipsum facilis consequatur dolore voluptatum?</p>
+        <h2>Box Model</h2>
+            <p class="box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quas omnis illo neque, distinctio cumque vel itaque modi veniam ratione, dolore quos blanditiis laudantium similique voluptates, aperiam aut minus voluptatum!</p>
+
+</body>
+</html>

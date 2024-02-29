@@ -1,0 +1,11 @@
+body {font-family: 'Times New Roman', Times, serif;}
+h1, h2 {color: #254F5F;}
+.evenrow {color: blue;}
+h1 {font-size: 3em;}
+h1 {font-size: 2em;}
+body {background-color: #97826F;}
+p {color: #34A8B7;}
+link {color: #31C2D3;}
+nav {background-color: #3d4a52; padding: 10px;}
+nav a {color: #31C2D3}
+nav a:hover {background-color: #ffe4c4;}
