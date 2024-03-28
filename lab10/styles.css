@@ -9,7 +9,7 @@ link {color: #31C2D3;}
 nav {background-color: #3d4a52; padding: 10px; margin-bottom: 30px;}
 nav a {color: #31C2D3;}
 nav a:hover {background-color: #ffe4c4;}
-.photo1 {float: left; margin: 20px;}
+.photo1 {float: left; margin: 20px; max-width: 100%;}
 .clear {clear: both;}
 .footerfloat {float: right;}
 .row1 {display: flex; margin: 30px;}
@@ -27,7 +27,7 @@ aside {background-color: #254F5F; border-radius: 1em; margin: 10px; padding: 5px
 .flexbox2 {display: flex;}
 .otherskills {flex: 1;}
 .description {padding: 5px;}
-.image1 {max-width: 100%;}
+
 
 @media only screen and (max-width: 800px) {
     nav a {width: 100%; display: block;}
