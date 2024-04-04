@@ -1,0 +1,82 @@
+body {
+    background-color:#e0e1dd;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0d1b2a;
+    margin: 5px;
+    padding: 30px 10px 30px 10px;
+    border-radius: 5px;
+}
+
+nav div a {
+    background-color: #1b263b;
+    padding: 20px 30px 20px 30px;
+    color: #778da9;
+    font-size: 20pt;
+    font-family: monospace;
+    border-radius: 10px;
+}
+
+nav div a:hover {
+    background-color: #778da9;
+    color: #0d1b2a;
+}
+
+.homepage1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.homepage1 div p {
+    border-radius: 5px;
+    margin: 5px;
+    padding: 30px;
+    background-color: #778da9;
+    color: #0d1b2a;
+    font-size: 15pt;
+}
+
+.homepage2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.homepage2 div p {
+    border-radius: 5px;
+    margin: 5px;
+    padding: 30px;
+    background-color: #778da9;
+    color: #0d1b2a;
+    font-size: 15pt;
+}
+
+.project1, .project2 {
+    background-color: #778da9;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 20px;
+    font-family: monospace;
+    font-size: 15pt;
+    color: #0d1b2a;
+}
+
+.projectbody {
+    display: flex;
+}
+
+.projectnav {
+    background-color: #1b263b;
+    margin: 5px;
+    padding: 20px;
+    display: block;
+}
+
+.projectnav a {
+    color: #778da9;
+    font-size: 25pt;
+    font-family: monospace;
+}
