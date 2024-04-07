@@ -4,7 +4,7 @@ body {
 
 
 nav {
-    display: flex;
+    display: flex; flex-wrap: wrap;
     justify-content: space-around;
     background-color: #0d1b2a;
     margin: 5px;
@@ -27,7 +27,7 @@ nav div a:hover {
 }
 
 .homepage1 {
-    display: flex;
+    display: flex; flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -41,7 +41,7 @@ nav div a:hover {
 }
 
 .homepage2 {
-    display: flex;
+    display: flex; flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -65,7 +65,7 @@ nav div a:hover {
 }
 
 .projectbody {
-    display: flex;
+    display: flex; flex-wrap: wrap;
 }
 
 .projectnav {
