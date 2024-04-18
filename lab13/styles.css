@@ -11,9 +11,9 @@ nav a {color: #ffffff;}
 nav a:hover {background-color: #ffe4c4;}
 .photo1 {float: left; margin: 20px; max-width: 100%;}
 .clear {clear: both;}
-.footerfloat {float: right;}
+.footerfloat {float: right; color: #ffffff;}
 .row1 {display: flex; margin: 30px;}
-.row1 div {flex:1; background-color: #3d4a52; border-radius: 1em; padding: 10px; }
+.row1 div {flex:1; background-color: add8e6; border-radius: 1em; padding: 10px; }
 
 
 .row2 {display: flex; margin: 30px; flex-wrap: wrap;}
@@ -24,10 +24,13 @@ img {width: 50px;}
 .icons {display: flex; flex: 3; justify-content: space-between; padding: 5px;margin: 10px;}
 aside {background-color: #add8e6; border-radius: 1em; margin: 10px; padding: 5px;}
 .asideheader {color: #111111;}
+aside h2 p {color: #111111;}
 .flexbox2 {display: flex;}
 .otherskills {flex: 1;}
 .description {padding: 5px;}
-
+.choosereasonforemail {color: #111111;}
+.skillsaside {color: #111111;}
+.skillslist {color: #ffffff;}
 
 @media only screen and (max-width: 800px) {
     nav a {width: 100%; display: block;}
