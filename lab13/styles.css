@@ -1,13 +1,13 @@
 body {font-family: 'Times New Roman', Times, serif;}
-h1, h2 {color: #05a50a;}
+h1, h2 {color: #ffffff;}
 .evenrow {color: blue;}
 h1 {font-size: 3em;}
 h1 {font-size: 2em;}
 body {background-color: #97826F;}
-p {color: #05a50a;}
-link {color: #05a50a;}
+p {color: #ffffff;}
+link {color: #ffffff;}
 nav {background-color: #3d4a52; padding: 10px; margin-bottom: 30px;}
-nav a {color: #05a50a;}
+nav a {color: #ffffff;}
 nav a:hover {background-color: #ffe4c4;}
 .photo1 {float: left; margin: 20px; max-width: 100%;}
 .clear {clear: both;}
@@ -17,13 +17,13 @@ nav a:hover {background-color: #ffe4c4;}
 
 
 .row2 {display: flex; margin: 30px; flex-wrap: wrap;}
-.row2 div {background-color: #3d4a52; border-radius: 1em; flex: 1; padding: 10px;}
+.row2 div {background-color: #111111; border-radius: 1em; flex: 1; padding: 10px;}
 
 .skillsheading {text-align: center;}
 img {width: 50px;}
 .icons {display: flex; flex: 3; justify-content: space-between; padding: 5px;margin: 10px;}
-aside {background-color: #254F5F; border-radius: 1em; margin: 10px; padding: 5px;}
-.asideheader {color: #fe0707;}
+aside {background-color: #111111; border-radius: 1em; margin: 10px; padding: 5px;}
+.asideheader {color: #ffffff;}
 .flexbox2 {display: flex;}
 .otherskills {flex: 1;}
 .description {padding: 5px;}
