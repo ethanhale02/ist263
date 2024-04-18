@@ -17,12 +17,12 @@ nav a:hover {background-color: #ffe4c4;}
 
 
 .row2 {display: flex; margin: 30px; flex-wrap: wrap;}
-.row2 div {background-color: #111111; border-radius: 1em; flex: 1; padding: 10px;}
+.row2 div {background-color: #add8e6; border-radius: 1em; flex: 1; padding: 10px;}
 
 .skillsheading {text-align: center;}
 img {width: 50px;}
 .icons {display: flex; flex: 3; justify-content: space-between; padding: 5px;margin: 10px;}
-aside {background-color: #111111; border-radius: 1em; margin: 10px; padding: 5px;}
+aside {background-color: #add8e6; border-radius: 1em; margin: 10px; padding: 5px;}
 .asideheader {color: #ffffff;}
 .flexbox2 {display: flex;}
 .otherskills {flex: 1;}
