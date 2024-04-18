@@ -1,13 +1,13 @@
 body {font-family: 'Times New Roman', Times, serif;}
-h1, h2 {color: #fe0707;}
+h1, h2 {color: #05a50a;}
 .evenrow {color: blue;}
 h1 {font-size: 3em;}
 h1 {font-size: 2em;}
 body {background-color: #97826F;}
-p {color: #fe0707;}
-link {color: #fe0707;}
+p {color: #05a50a;}
+link {color: #05a50a;}
 nav {background-color: #3d4a52; padding: 10px; margin-bottom: 30px;}
-nav a {color: #fe0707;}
+nav a {color: #05a50a;}
 nav a:hover {background-color: #ffe4c4;}
 .photo1 {float: left; margin: 20px; max-width: 100%;}
 .clear {clear: both;}
