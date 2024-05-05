@@ -3,84 +3,38 @@ body {
 }
 
 /* Navigation Styles */
-/*
+
 nav {
     display: flex; 
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #0d1b2a;
     margin: 5px;
     padding: 30px 10px 30px 10px;
     border-radius: 5px;
+    flex-direction: row;
 }
 
 nav div a {
     background-color: #1b263b;
-    padding: 20px 30px 20px 30px;
+    padding: 10px;
     color: #778da9;
     font-size: 20pt;
     font-family: monospace;
     border-radius: 10px;
     text-decoration: none;
+    
 }
 
 nav div a:hover {
     background-color: #778da9;
     color: #0d1b2a;
 }
-*/
-/* Possible Navigation Styles */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0d1b2a;
-    border-radius: 5px;
-}
 
-.container nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1b263b;
-    padding: 5px 10px;
-    margin: 7px;
-}
 
-.nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
-
-.item a {
-    position: relative;
-    user-select: none;
-    font-size: 20px;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin: 0 20px;
-}
 /* Homepage Styles */
 .homepage1, .homepage2{
     display: flex; 
-    justify-content: space-around;
-}
-
-.homepage1 div p, .homepage2 div p {
-    border-radius: 5px;
-    margin: 5px;
-    padding: 25px;
-    background-color: #778da9;
-    color: #0d1b2a;
-    font-size: 15pt;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.homepage1 img, .homepage2 img {
-    max-width: 100%;
-    max-height: 100%;
+    justify-content: space-evenly;
     background-color: #778da9;
     padding: 5px;
     margin: 5px;
@@ -88,6 +42,54 @@ nav div a:hover {
 }
 
 
+.homepage1 img {
+    max-width: 100%;
+    height: auto;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.homepage1 div p {
+    max-width: 100%;
+    color: #0d1b2a;
+    font-size: 250%;
+    max-height: auto;
+    word-wrap: break-word;
+}
+
+span {
+    font-weight: bold;
+}
+
+.homepage2 img {
+    width: 100%;
+    max-height: auto;
+    overflow: auto;
+    size: 100%;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.homepage2 div p {
+    max-width: 100%;
+    color: #0d1b2a;
+    font-size: 300%;
+    max-height: auto;
+    word-wrap: break-word;
+}
+
+.homepage2 div p, .homepage2 img {
+    flex: 1;
+}
+
+.homepage2images {
+    width: 250%;
+    max-height: auto;
+    overflow: hidden;
+    size: 100%;
+    margin-right: 5px;
+    border-radius: 5px;
+}
 /* Project Styles */
 .project1, .project2 {
     background-color: #778da9;
@@ -100,7 +102,8 @@ nav div a:hover {
 }
 
 .projectbody {
-    display: flex; flex-wrap: wrap;
+    display: flex; 
+    flex-wrap: wrap;
 }
 
 .projectnav {
@@ -108,6 +111,7 @@ nav div a:hover {
     margin: 5px;
     padding: 20px;
     display: block;
+    border-radius: 5px;
 }
 
 .projectnav a {
@@ -117,3 +121,103 @@ nav div a:hover {
 }
 
 /* Resume Styles */
+.resume1 {
+    text-align: center;
+    background-color: #1b263b;
+    color: #778da9;
+    padding: 10px;
+    font-size: 125%;
+    margin: 10px;
+    border-radius: 5px;
+}
+hr {
+    padding: 3px;
+    background-color: #1b263b;
+    border-radius: 5px;
+}
+
+.resumetitles {
+    font-size: 150%;
+    background-color: #778da9;
+    padding: 10px;
+}
+
+.resumebody {
+    font-size: 110%;
+}
+
+.resumelist {
+    font-size: 105%;
+    list-style-type: square;
+}
+
+.resumecontainer {
+    background-color: #778da9;
+    margin: 5px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.resumefloats {
+    float: right;
+}
+
+/* Fonts */
+body {
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+/* javascript function styles */
+body {
+    text-align: center;
+}
+.popupImage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #778da9;
+    border: 1px solid #0d1b2a;
+    padding: 10px;
+    box-shadow: 0 0 10px
+        #000033;
+    z-index: 9999;
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+}
+
+.popupImage img {
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+/* Media Queries */
+@media (max-width: 800px) {
+    nav {
+      flex-direction: column;
+    }
+  }
+
+@media (max-width: 800px) {
+    .homepage1, .homepage2, .homepage1 img, .homepage2images {
+      flex-direction: column;
+      max-width: 100%;
+      float: none;
+    }
+  }

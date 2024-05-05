@@ -6,39 +6,46 @@
     <title>Resume</title>
     <link rel="stylesheet" href="project01styles.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="resumepage">
     <nav>
-        <div><a href="homepage.html">Home</a></div>
-        <div><a href="resume.html">Resume</a></div>
+        <div><a href="homepage.html">Home</a></div><br>
+        <div><a href="resume.html">Resume</a></div><br>
         <div><a href="projects.html">Projects</a></div>
     </nav>
-
+    <div class="resumecontainer">
     <p class="resume1">Ethan S Hale<br>(315)345-7247 - eshale@syr.edu - in/ethan-hale</p>
     <hr>
-    <p class="resumetitles">Education</p>
+    <h1 class="resumetitles">Education</h1>
     <hr>
-    <p>Syracuse University, School of Information Studies, Syracuse, NY		       May 2025 <br>B.E. Information Management & Technology<br>Relevant Coursework:</p>
-    <p class="resumetitles">Work Experience</p>
+    <p class="resumebody">Syracuse University, School of Information Studies, Syracuse, NY<div class="resumefloats"> May 2025 </div>B.E. Information Management & Technology<br>Relevant Coursework:</p>
     <hr>
-    <p>Bag Room Staff, Bellevue Country Club, Syracuse, NY			Apr 2019 – Aug 2023</p>
-    <ul>
+    <h1 class="resumetitles">Work Experience</h1>
+    <hr>
+    <p class="resumebody">Bag Room Staff, Bellevue Country Club, Syracuse, NY			<div class="resumefloats">Apr 2019 – Aug 2023</div></p>
+    <ul class="resumelist">
         <li>Collaborated with 1-5 employees to set up tournaments and other events.</li>
         <li>Assisted members with numerous tasks that improved their experience.</li>
         <li>Coordinate with coworkers to make sure members bags are loaded on golfcarts for when they arrive</li>
     </ul>
-    <p class="resumetitles">Projects</p>
     <hr>
-    <p>Haskell Coding Project</p>
-    <ul>
+    <h1 class="resumetitles">Projects</h1>
+    <hr>
+    <p class="resumebody">Haskell Coding Project</p>
+    <ul class="resumelist">
         <li>Wrote multiple functions to control a robot to do numerous tasks such as move, pick up and place down an item, and add and delete items from the robot’s log.</li>
     </ul>
-    <p>Python Coding Project</p>
-    <ul>
+    <p class="resumebody">Python Coding Project</p>
+    <ul class="resumelist">
         <li>Created a program using Alpha Vantage API that takes a stock ticker and returns relevant data displayed in graphs and charts using ipywidgets, ipython display, and pandas</li>
     </ul>
-    <p class="resumetitles">TECHNICAL SKILLS/CERTIFICATIONS</p>
     <hr>
-    <p>Programming Languages: Python, Java, Haskell</p>
+    <h1 class="resumetitles">TECHNICAL SKILLS/CERTIFICATIONS</h1>
+    <hr>
+    <p class="resumebody"><i>Programming Languages:</i> Python, Java, Haskell</p>
+</div>
 </body>
 </html>

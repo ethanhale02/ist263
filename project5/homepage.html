@@ -9,30 +9,46 @@
 </head>
 <body>
     <nav>
-        <div><a href="homepage.html">Home</a></div>
-        <div><a href="resume.html">Resume</a></div>
-        <div><a href="projects.html">Projects</a></div>
+        <div><a href="homepage.html">Home</a></div><br>
+        <div><a href="resume.html">Resume</a></div><br>
+        <div><a href="projects.html">Projects</a></div><br>
     </nav>
 
-    <div class="container">
-        <nav>
-            <ul class="nav">
-                <li class="pagelink"><a href="homepage.html">Home</a></li>
-                <li class="pagelink"><a href="resume.html">Resume</a></li>
-                <li class="pagelink"><a href="projects.html">Projects</a></li>
-            </ul>
-        </nav>
-    </div>
+
 
     <section class="homepage1">
-        <div><img src="" alt="ethan"></div>
-        <div><p>Name: Ethan S Hale<br>Birthday: December 4th, 2002<br>Graduation Year: 2025<br>Major: Information Management and Technology<br>Concentration: Information Security<br>Email: <a href="eshale@syr.edu">eshale@syr.edu</a><br>LinkedIn: <a href="www.linkedin.com/in/ethan-hale-7338aa263">https://www.linkedin.com/in/ethan-hale</a><br>GitHub: <a href="https://github.com/ethanhale02">https://github.com/ethanhale02</a></p></div>
+        <div><p><span>Name:</span> Ethan S Hale<br><span>Age: </span> 21 Years Old<br><span>Birthday:</span> December 4th, 2002<br><span>College: </span>Syracuse University School of Information Studies<br><span>Graduation Year:</span> 2025<br><span>Major:</span> Information Management and Technology<br><span>Concentration:</span> Information Security<br><span>Email:</span> <a href="eshale@syr.edu">eshale@syr.edu</a><br><span>LinkedIn:</span> <a href="www.linkedin.com/in/ethan-hale-7338aa263">https://www.linkedin.com/in/ethan-hale</a><br><span>GitHub:</span> <a href="https://github.com/ethanhale02">https://github.com/ethanhale02</a></p></div>
+        <div><button onclick="showImage()"><img src="2C7A0427.JPG" alt="ethan"></button></div>
     </section>
 
     <section class="homepage2">
+        <div class="homepage2images">
+            <div><img src="IMG_1961.png" alt="Syracuse Skyline"></div>
+            <div><img src="EthanGrandpaFishingFlorida.JPG" alt="Ethan and his grandfather fishing in florida"></div>
+            <div><img src="EthanMaxMiltDR.JPG" alt="Ethan, max, and malcom in the dominican republic"></div>
+        </div>
         <div><p>I grew up in Syracuse Ny living with my mom, dad, and younger brother in the Strathmore neighborhood. I have always had an interest in technology and figuring out how different things work so throughout my time in school I took a lot of different technology classes. During my time at Corcoran High School, I decided I wanted to go to SU for Computer science but decided to change to my current major halfway through my 2nd year. Outside of school I enjoy spending time outdoors playing sports or doing activities such as fishing and hunting. I also enjoy hanging out with my friends and have an interest in the stock market.</p></div>
-        <div><img src="IMG_1961.png" alt="Syracuse skyline"></div>
     </section>
 
+    <script>
+        function showImage() {
+            var popupImage = document.createElement("div");
+            popupImage.className = "popupImage";
+
+            var image = document.createElement("img");
+            image.src = "2C7A0427.JPG";
+            var closeButton =document.createElement("button");
+            closeButton.textContent = "Close";
+            closeButton.className = "close-button";
+            closeButton.onclick = function () {
+                    document.body.removeChild(popupImage);
+                };
+
+            popupImage.appendChild(closeButton);
+            popupImage.appendChild(image);
+
+            document.body.appendChild(popupImage);
+        }
+    </script>
 </body>
 </html>
