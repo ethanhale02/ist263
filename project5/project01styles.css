@@ -93,6 +93,22 @@ span {
     margin-right: 5px;
     border-radius: 5px;
 }
+
+/* Skip To Content */
+.skip-link {
+    background-color: #778da9;
+    color: #0d1b2a;
+    font-weight: 600;
+    left: 50%;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+}
+
+.skip-link:focus {
+    transform: translateY(0%);
+}
 /* Project Styles */
 .project1, .project2 {
     background-color: #778da9;
