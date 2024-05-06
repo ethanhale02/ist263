@@ -41,6 +41,9 @@ nav div a:hover {
     border-radius: 5px;
 }
 
+.homepage1 a, .homepage2 a {
+    color: #0d1b2a;
+}
 
 .homepage1 img {
     max-width: 100%;
@@ -98,6 +101,10 @@ span {
     padding: 20px;
     font-family: monospace;
     font-size: 15pt;
+    color: #0d1b2a;
+}
+
+.project1 a, .project2 a {
     color: #0d1b2a;
 }
 
